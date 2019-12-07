@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>流量图</title>
+    <meta name="viewport" , content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: white;
+        }
+
+        .header {
+            background-color: #cccccc;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #444444;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .topnav a:hover {
+            background-color: white;
+            color: #444444;
+        }
+
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+        .rightcolumn {
+            float: right;
+            width: 25%;
+            background-color: #aaaaaa;
+            padding-left: 20px;
+        }
+
+        .fakeimage {
+            background: #aaaaaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #dddddd;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .topnav a {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <p>First Html!</p>
+</div>
+<div class="topnav">
+    <a href="https://www.baidu.com/">baidu</a>
+    <a href="https://www.sogou.com/">sougou</a>
+    <a href="/auth/flow">llllll</a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>文章标题</h2>
+            <h5>2019 年 12 月 7日</h5>
+            <div class="fakeimage" style="height: 200px;">
+                <img src="https://static.runoob.com/images/re/kkb-20191202-try-1.png">
+            </div>
+            <p>一些文本...</p>
+
+        </div>
+
+        <div class="card">
+            <h2>文章标题</h2>
+            <h5>2019 年 12 月 7日</h5>
+            <div class="fakeimage" style="height: 200px;">
+                <img src="https://static.runoob.com/images/re/kkb-20191202-try-1.png">
+            </div>
+            <p>一些文本...</p>
+
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>文章标题</h2>
+            <h5>2019 年 12 月 7日</h5>
+            <div class="fakeimage" style="height: 100px;">
+                <p>picture</p>
+            </div>
+            <p>一些文本...</p>
+        </div>
+
+        <div class="card">
+            <h2>文章标题</h2>
+            <h5>2019 年 12 月 7日</h5>
+            <div class="fakeimage" style="height: 100px;">
+                <p>picture</p>
+            </div>
+            <p>一些文本...</p>
+
+        </div>
+        </div>
+    </div>
+
+<div class="footer">
+    <p>
+        this is footer
+    </p>
+</div>
+</body>
+</html>

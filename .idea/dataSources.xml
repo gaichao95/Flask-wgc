@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="flask@localhost" uuid="d58b843c-3bd4-40c3-86a3-e2003c25bdff">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/flask</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="controller@192.168.30.125" uuid="10ed9594-5697-41b7-b153-c52dcc16a97f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.30.125:5432/controller</jdbc-url>
+    </data-source>
+  </component>
+</project>
